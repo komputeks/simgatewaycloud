@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Smartphone, Send, CheckCircle2, Clock, Battery, Signal, Activity } from 'lucide-react';
-import { createClient } from '../lib/supabase';
+import { createClient } from './lib/supabase';
 
 export default function Dashboard() {
   const [devices, setDevices] = useState<any[]>([]);
