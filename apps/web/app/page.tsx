@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Smartphone, Send, BarChart3, Shield, Zap, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { createClient } from '@/lib/supabase';
+import { createClient } from '../../lib/supabase';
 
 export default function Home() {
   const [user, setUser] = useState<any>(null);
