@@ -1,15 +1,5 @@
 import './globals.css';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'SIM Gateway Cloud — Android SMS Gateway Platform',
-  description: 'Turn Android phones into enterprise SMS gateways. Bulk messaging, real-time delivery, dual SIM support.',
-};
-
+export const metadata = { title: 'SIM Gateway Cloud', description: 'SMS Gateway Platform' };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en" className="dark">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"><body>{children}</body></html>;
 }
